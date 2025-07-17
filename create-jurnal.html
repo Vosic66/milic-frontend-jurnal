@@ -6,7 +6,16 @@
     <title>Frontend-productivity-jurnal</title>
 </head>
 <body>
-  <div>
+  <!-- Navigacija kroz sajt -->
+<nav><ul> 
+  <h2>Plan</h2>
+  <li>Dnevni</li>
+  <li>Nedeljni</li>
+  <li>Mesecni</li>
+</ul></nav>
+ <main>
+  <!-- GLAVNI DEO -->
+  <section>
     <h1>Milicev dnevnik produktivnosti</h1>
     <h2>Zdravo, ovo je moj dnevnik prouktivnosti.</h2>
     <p>Ovo je dnevnik i sajt moje produktivnosti. Zadatke koje obavljamo ovde su moje usavrsavanje kroz Frontend.Takodje ovo je sajt koji sam pravim tako da se mogu da kazem da je ovo nesto sto sam sam kreirao uz pomoc Navia i Nine mojih AI mentora. Ovo ve da se promeni dosta puta ali radujem se da vidim krajnji produkt ovoga.Hvala na poverenju</p>
@@ -15,8 +24,20 @@
         <li>Ucenje CSS</li>
         <li>Ucenje JavaScript</li>
     </ul>
-  </div>    
-  <div>
+  </section>    
+ 
+    <!-- ROAD MAP UCENJA -->
+    <section>
+      <h2>Road map ucenje</h2>
+      <ul>
+        <li>HTML osnove ✅</li>
+        <li>CSS layout sistemi</li>
+        <li>JavaScript osnove</li>
+        <li>UI/UX principi</li>
+      </ul>
+
+    </section>
+    <!-- UNOS ZADATAKA  -->
     <h2> Unos zadataka</h2>
     <form>
         <label for="task">Zadatak za danas</label>
@@ -26,13 +47,47 @@
         <input  type="date"  name="date">
         <br>
         <label for="beleske">Beleske</label>
-        <textarea name="beleske" id="beleske" name="beleske"></textarea>
+        <textarea name="beleske" id="beleske" ></textarea>
+        <br>
         <button type="submit">Dodaj u dnevnik</button>
 
     </form>
-  </div>   
+    <details>
+      <summary>Sta uciti danas</summary>
+      <p>Danas ponavljam rad sa formama i kako organizovati podatke</p>
+    </details>
+    <section>
+      <h2>Napredak</h2>
+      <form>
+        <label for="html">HTML osnove ✅</label>
+        <input type="checkbox" id="html" checked> <br>
+        <label for="css"> CSS layout u toku</label>
+        <input type="checkbox" id="css"> <br>
+        <label for="java">JavaScript</label>
+        <input type="checkbox"  id="java">
+
+      </form>
+    </section>
+    <section>
+  <h2>Resursi koje koristim</h2>
+  <ul>
+    <li><a href="https://developer.mozilla.org/">MDN Web Docs</a></li>
+    <li><a href="https://flexboxfroggy.com/">Flexbox Froggy</a></li>
+    <li><a href="https://codecombat.com/">CodeCombat</a></li>
+  </ul>
+</section>
+</main>   
     <footer>
-        <h3>S' ljubavlju tvoj Milic</h3>
-    </footer>
+    <h3>S' ljubavlju tvoj Milic</h3>
+    <!-- LINKOVI SOCIJALNIH MREZA -->
+    <ul>
+      <li><a href="https://www.instagram.com"><img src="slicicie/instagram.svg" alt="instagram" width="20px"></a></li>
+      <li><a href="https://www.facebook.com"><img src="slicicie/facebook.svg" alt="facebook" width="20px"></a></li>
+      <li><a href="https://www.linkedIn.com"><img src="slicicie/linkedin.svg" alt="linkedIn" width="20px"></a></li>
+      <li><a href="https://www.tiktok.com"><img src="slicicie/tiktok.svg" alt="tiktok" width="20px"></a></li>
+      <li><a href="https://www.youtube.com"><img src="slicicie/youtube.svg" alt="youtube" width="20px"></a></li>
+    </ul>
+</foter>
+   
 </body>
 </html>
